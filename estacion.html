@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Estacion de Talavera</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container shadow p-0">
+        <header>
+            <h1 class="text-center text-white bg-primary py-3">Estaciones de Tren Azarquiel</h1>
+        </header>
+        <div class="row justify-content-center mb-3">
+            <div class="col-md-6 text-center">
+                <button class="btn mx-2"
+                    onclick="document.getElementById('llegadas').style.display = 'flex';document.getElementById('movie').style.display = 'none';">
+                    <h3 class="">Salidas</h3>
+                </button>
+            </div>
+            <div class="col-md-6 text-center">
+                <button class="btn mx-2"
+                    onclick="document.getElementById('salidas').style.display = 'flex';document.getElementById('person').style.display = 'none';">
+                    <h3 class="">LLegadas</h3>
+                </button>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="llegadas">
+            <div class="col-md-5 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://www.adif.es/documents/20124/4633439/35200F.jpg/dc570e98-bb79-0c71-42a4-7fb94209b533?t=1639561037496" alt="">
+                    <div class="card-body">
+                        <h6><strong>Hora de llegada</strong></h6>
+                        <p class="card-text">14:34</p>
+                        <h6><strong>Estacion</strong></h6>
+                        <p class="card-text">Estacion Atocha</p>
+                        <h6><strong>Tren</strong></h6>
+                        <p class="card-text">RF-45</p>
+                        <h6><strong>Via</strong></h6>
+                        <p class="card-text">1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="salidas">
+            <div class="col-md-5 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://www.adif.es/documents/20124/4633439/35200F.jpg/dc570e98-bb79-0c71-42a4-7fb94209b533?t=1639561037496" alt="">
+                    <div class="card-body">
+                        <h6><strong>Hora de salida</strong></h6>
+                        <p class="card-text">14:34</p>
+                        <h6><strong>Estacion</strong></h6>
+                        <p class="card-text">Estacion Atocha</p>
+                        <h6><strong>Tren</strong></h6>
+                        <p class="card-text">RF-45</p>
+                        <h6><strong>Via</strong></h6>
+                        <p class="card-text">1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h2 class="text-white text-center bg-primary m-0 py-3">S1-DAW 2022</h2>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

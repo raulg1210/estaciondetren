@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estacion.xsl" type="text/xsl"?>
+<!DOCTYPE estacion SYSTEM "estacion.dtd">
+<estacion nombre="Estacion de Talavera de la Reina">
+    <llegadas>
+        <llegada>
+            <horadellegada>18:44</horadellegada>
+            <origen>
+                <nombre>Sevilla-Santa Justa</nombre>
+                <imagen>34234/3116111/a51003_sevilla.jpg/329bf03e-f762-7193-e81b-71515da03a28?t=1626869662047</imagen>
+            </origen>
+            <tren codigo="17907">RF - MD</tren>
+            <via>1</via>
+        </llegada>
+        <llegada>
+            <horadellegada>20:18</horadellegada>
+            <origen>
+                <nombre>Madrid-Atocha Cercanias</nombre>
+                <imagen>34234/3119417/a35400.jpg/cdc68f2e-7881-75d8-5660-efeb88fdf135?t=1626869048679</imagen>
+            </origen>
+            <tren codigo="17018">RF - Regional Express</tren>
+            <via>4</via>
+        </llegada>
+        <llegada>
+            <horadellegada>20:24</horadellegada>
+            <origen>
+                <nombre>Badajoz</nombre>
+                <imagen>34234/3116907/a37606.jpg/87ec72fa-5124-4844-d4a3-b6e141b9b11f?t=1626869240201</imagen>
+            </origen>
+            <tren codigo="17025">RF - MD</tren>
+            <via>1</via>
+        </llegada>
+        <llegada>
+            <horadellegada>20:24</horadellegada>
+            <origen>
+                <nombre>Badajoz</nombre>
+                <imagen>34234/3116907/a37606.jpg/87ec72fa-5124-4844-d4a3-b6e141b9b11f?t=1626869240201</imagen>
+            </origen>
+            <tren codigo="17025">RF - MD</tren>
+            <via>1</via>
+        </llegada>
+    </llegadas>
+    <salidas>
+        <salida>
+            <horadesalida>19:00</horadesalida>
+            <origen>
+                <nombre>Madrid-Atocha Cercanias</nombre>
+                <imagen>34234/3119417/a35400.jpg/cdc68f2e-7881-75d8-5660-efeb88fdf135?t=1626869048679</imagen>
+            </origen>
+            <tren codigo="17907">RF - MD</tren>
+            <via>1</via>
+        </salida>
+        <salida>
+            <horadesalida>20:08</horadesalida>
+            <origen>
+                <nombre>Cáceres</nombre>
+                <imagen>34234/3116907/a37606.jpg/87ec72fa-5124-4844-d4a3-b6e141b9b11f?t=1626869240201</imagen>
+            </origen>
+            <tren codigo="17018">RF - Regional Express</tren>
+            <via>4</via>
+        </salida>
+        <salida>
+            <horadesalida>20:25</horadesalida>
+            <origen>
+                <nombre>Madrid-Atocha Cercanias</nombre>
+                <imagen>34234/3119417/a35400.jpg/cdc68f2e-7881-75d8-5660-efeb88fdf135?t=1626869048679</imagen>
+            </origen>
+            <tren codigo="17025">RF - MD</tren>
+            <via>1</via>
+        </salida>
+        <salida>
+            <horadesalida>20:25</horadesalida>
+            <origen>
+                <nombre>Madrid-Atocha Cercanias</nombre>
+                <imagen>34234/3119417/a35400.jpg/cdc68f2e-7881-75d8-5660-efeb88fdf135?t=1626869048679</imagen>
+            </origen>
+            <tren codigo="17025">RF - MD</tren>
+            <via>1</via>
+        </salida>
+    </salidas>
+</estacion>
