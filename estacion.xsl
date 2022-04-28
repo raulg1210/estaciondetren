@@ -51,7 +51,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="row justify-content-center" id="llegadas">
+                    <div style="display:none" class="row justify-content-center" id="llegadas">
                         <xsl:for-each select="estacion/llegadas/llegada">
                             <div class="col-md-5 mb-3">
                                 <div class="card">
