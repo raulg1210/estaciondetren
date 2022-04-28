@@ -39,13 +39,13 @@
                     
                     <div class="row justify-content-center mb-3">
                         <div class="col-md-6 text-center">
-                            <button class="btn mx-2"
+                            <button class="btn ml-5"
                                     onclick="document.getElementById('salidas').style.display = 'flex';document.getElementById('llegadas').style.display = 'none';">
                                 <h2><strong>Salidas</strong></h2>
                             </button>
                         </div>
                         <div class="col-md-6 text-center">
-                            <button class="btn mx-2"
+                            <button class="btn mr-5"
                                     onclick="document.getElementById('llegadas').style.display = 'flex';document.getElementById('salidas').style.display = 'none';">
                                 <h2><strong>Llegadas</strong></h2>
                             </button>
